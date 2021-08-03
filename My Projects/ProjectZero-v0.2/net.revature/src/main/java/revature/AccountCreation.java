@@ -1,14 +1,16 @@
-package net.revature;
+package revature;
 
 public class AccountCreation {
 
-    String firstName;
-    String lastName;
-    String emailAddress;
-    String streetAddress;
-    String city;
-    String state;
-    String zipCode;
+    private String firstName;
+    private String lastName;
+    private String emailAddress;
+    private String streetAddress;
+    private String city;
+    private String state;
+    private String zipCode;
+    private String password;
+
 
     public void setFirstName(String firstName){
         this.firstName = firstName;
@@ -34,9 +36,7 @@ public class AccountCreation {
     public void setStreetAddress(String streetAddress){
         this.streetAddress = streetAddress;
     }
-    public String getStreetAddress(){
-        return streetAddress;
-    }
+    public String getStreetAddress(){return streetAddress;}
 
     public void setCity(String city){
         this.city = city;
@@ -59,5 +59,10 @@ public class AccountCreation {
         return zipCode;
     }
 
-
+    public void setPassword(String password){
+        this.password = password;
+    }
+    public String getPassword(){
+        return password;
+    }
 }

@@ -1,32 +1,14 @@
-package net.revature;
+package revature;
+
+
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Driver {
 
     public static void main(String[] args){
-        System.out.println("Press '1' to create a new account.\nPress '2' to" +
-                "log into " + "an existing account.\nPress '0' to exit");
-        Scanner input = new Scanner(System.in);
-        int choice = input.nextInt();
-        boolean i = true;
-        while (i) {
-            if (choice == 0) {
-                System.out.println("Goodbye!");
-                i = false;
-            } else if (choice == 1) {
-                creationOfAccount();
-            }
-            else if (choice == 2){
-                System.out.println("Welcome back!");
-                i = false;
-            }
-            else {
-                System.out.println("Error! Try again");
-                choice = input.nextInt();
-            }
-        }
+        mainMenu();
     }
 
     public static void mainMenu() {
@@ -41,6 +23,7 @@ public class Main {
                 i = false;
             } else if (choice == 1) {
                 creationOfAccount();
+
             }
             else if (choice == 2){
                 System.out.println("Welcome back!");
@@ -103,7 +86,7 @@ public class Main {
                 int accountFinished = input.nextInt();
 
                 if (accountFinished == 1) {
-                    mainMenu();
+                    break;
                 } else {
                     System.out.println("Goodbye!");
                     i = false;
@@ -111,7 +94,7 @@ public class Main {
 
             } else if ( verification == 2) {
                 System.out.println("Lets try again\n");
-                creationOfAccount();
+
             } else {
                 System.out.println("Invalid entry. Try again");
             }
