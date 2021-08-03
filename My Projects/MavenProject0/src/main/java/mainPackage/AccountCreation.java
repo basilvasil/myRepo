@@ -4,24 +4,31 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class AccountCreation {
-
+    private static String firstName;
+    private static String lastName;
+    private static String  streetAddress;
+    private static String city;
+    private static String state;
+    private static String zipCode;
 
 
     public static void creationOfAccount() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your first name:");
-        String firstName = input.nextLine();
+        firstName = input.nextLine();
         System.out.println("Enter your last name:");
-        String lastName = input.nextLine();
+        lastName = input.nextLine();
         System.out.println("Enter your street address:");
-        String streetAddress = input.nextLine();
+        streetAddress = input.nextLine();
         System.out.println("Enter your city:");
-        String city = input.nextLine();
+        city = input.nextLine();
         System.out.println("Enter your state:");
-        String state = input.nextLine();
+        state = input.nextLine();
         System.out.println("Enter your zip code:");
-        String zipCode = input.nextLine();
-
+        zipCode = input.nextLine();
+    }
+    public static void verificationOfAccount(){
+        Scanner input = new Scanner(System.in);
         boolean i = true;
         while (i) {
             System.out.println("Is the following correct?\n" +
@@ -50,7 +57,7 @@ public class AccountCreation {
 
                 int accountFinished = input.nextInt();
                 if (accountFinished == 1) {
-                    Menu.mainMenu();
+                    break;
                 } else {
                     System.out.println("Goodbye!");
                     i = false;
@@ -59,7 +66,7 @@ public class AccountCreation {
 
             } else if ( verification == 2) {
                 System.out.println("Lets try again\n");
-                creationOfAccount();
+                break;
             } else {
                 System.out.println("Invalid entry. Try again");
             }
