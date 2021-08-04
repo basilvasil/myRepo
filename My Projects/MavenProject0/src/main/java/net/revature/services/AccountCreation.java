@@ -1,4 +1,4 @@
-package mainPackage;
+package net.revature.services;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -1,5 +1,7 @@
-package mainPackage;
+package net.revature.services;
 
+
+import net.revature.services.AccountCreation;
 
 import java.util.Scanner;
 
