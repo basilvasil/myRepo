@@ -20,6 +20,11 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.revature</groupId>
+            <artifactId>enterprise_collections</artifactId>
+            <version>1.0.1</version>
+        </dependency>
     </dependencies>
 
 
