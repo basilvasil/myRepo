@@ -3,9 +3,6 @@ package com.revature.services;
 import com.revature.DAO.AccountQueries;
 import com.revature.displays.Menus;
 import com.revature.models.AccountCreator;
-import org.postgresql.util.PSQLException;
-
-import java.sql.SQLException;
 import java.util.Random;
 import java.util.Scanner;
 

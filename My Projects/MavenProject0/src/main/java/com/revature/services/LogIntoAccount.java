@@ -1,8 +1,8 @@
 package com.revature.services;
 
 import com.revature.DAO.AccountQueries;
-import com.revature.collection.RevArrayList;
 import com.revature.models.AccountAccessor;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -34,7 +34,7 @@ public class LogIntoAccount {
      * This indicates an account for that email address does not exist
      */
     public static void checkForEmail() {
-        RevArrayList<String> emailAccountList =
+        ArrayList<String> emailAccountList =
                 AccountQueries.retrieveEmailAndPassword(logIntoAccount.getEmailAddress());
         try {
             emailAccountList.get(0);
@@ -66,7 +66,7 @@ public class LogIntoAccount {
      * Note: if an email address entered is not found, this method will not be executed
      */
     public static void checkForPassword(){
-            RevArrayList<String> passwordAccountList =
+            ArrayList<String> passwordAccountList =
                     AccountQueries.retrieveEmailAndPassword(logIntoAccount.getEmailAddress());
 
             if(passwordAccountList.get(1).equals(logIntoAccount.getPassword())){

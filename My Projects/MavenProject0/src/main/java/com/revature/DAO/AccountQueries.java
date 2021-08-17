@@ -3,9 +3,9 @@ package com.revature.DAO;
 import com.revature.services.CreateAccount;
 import com.revature.util.ConnectionFactory;
 import java.sql.*;
-import java.util.logging.Logger;
+import java.util.ArrayList;
 
-import com.revature.collection.RevArrayList;
+
 
 /**
  * This class belong to the DAO layer of the application
@@ -107,8 +107,8 @@ public class AccountQueries {
      * @param emailAddress the existing user's email address
      * @return returns the user's email address and password in a RevArrayList
      */
-    public static RevArrayList<String> retrieveEmailAndPassword(String emailAddress) {
-        RevArrayList<String> accountList = new RevArrayList<>();
+    public static ArrayList<String> retrieveEmailAndPassword(String emailAddress) {
+        ArrayList<String> accountList = new ArrayList<>();
         try {
 
             final String searchForPassword = "select \"emailaddress\", \"userpassword\" from project0.users where " +
@@ -135,7 +135,7 @@ public class AccountQueries {
      * @ returns the balance in a RevArrayList
      */
     public static double retrieveBalance(String accountNumber) {
-        RevArrayList<Double> balance = new RevArrayList<>();
+        ArrayList<Double> balance = new ArrayList<>();
         String pullBalance = "select balance from project0.accounts where accountnumber = ?";
         try {
             PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(pullBalance);
@@ -163,7 +163,7 @@ public class AccountQueries {
      */
     public static String retrieveAccountNumber(String emailAddress){
 
-        RevArrayList accountNumberList = new RevArrayList();
+        ArrayList accountNumberList = new ArrayList();
         String pullAccountNumber = "select accountnumber from project0.users where emailaddress = ?;";
         try {
             PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(pullAccountNumber);

@@ -1,0 +1,7 @@
+com\revature\Create\Create.class
+com\revature\util\ColumnTypes.class
+com\revature\Read\Read.class
+com\revature\Update\Update.class
+com\revature\Delete\Delete.class
+com\revature\util\ConnectionFactory.class
+com\revature\Create\Creator.class
