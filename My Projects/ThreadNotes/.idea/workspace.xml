@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976118da-9c50-4a1e-a4c6-40d6ad2f5553" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ThreadNotes/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d6bc746d-5b3e-4eda-8198-72d5df36329d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../July27/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../July27/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../July27/.idea/modules.xml" beforeDir="false" />
@@ -64,22 +63,22 @@
       <change beforePath="$PROJECT_DIR$/../ProjectZero-v0.2/target/classes/net/revature/AccountCreation.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProjectZero-v0.2/target/classes/net/revature/AccountLogIn.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProjectZero-v0.2/target/classes/net/revature/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/src/main/java/Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/src/main/java/Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/src/main/java/ProducerConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/target/classes/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/target/classes/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadNotes/target/classes/ProducerConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProducerConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProducerConsumer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1wpL7ikTkSs3107uAEYmregD44b" />
+  <component name="ProjectId" id="1wdEKamYg7eTk5r0lCwqlNowZ9I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -105,34 +104,43 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Driver" />
-      <module name="Test" />
+    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumer" />
+      <module name="ThreadNotes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.ProducerConsumer" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="976118da-9c50-4a1e-a4c6-40d6ad2f5553" name="Changes" comment="" />
-      <created>1629150419363</created>
+      <changelist id="d6bc746d-5b3e-4eda-8198-72d5df36329d" name="Changes" comment="" />
+      <created>1628780003470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1629150419363</updated>
+      <updated>1628780003470</updated>
     </task>
     <servers />
   </component>
@@ -147,15 +155,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.sql.SQLException" package="java.sql" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
