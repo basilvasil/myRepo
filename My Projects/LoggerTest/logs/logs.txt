@@ -1,0 +1,4 @@
+WARN - 2021-08-17 17:02:13,762 - Warning example 
+WARN : 2021-08-17 17:03:30 : Warning example
+WARN : 2021-08-17 17:10:33 : Warning example
+WARN : 2021-08-17 17:17:48 : Warn Example
