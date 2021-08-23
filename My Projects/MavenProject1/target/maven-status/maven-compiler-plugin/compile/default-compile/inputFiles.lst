@@ -1,10 +1,7 @@
-C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\Create\Creator.java
-C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\Update\Updater.java
 C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\util\AppAppenders.java
-C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\Delete\Deleter.java
-C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\models\Tables.java
+C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\Create\ORMCreator.java
+C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\Update\ORMUpdater.java
 C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\util\ConnectionFactory.java
-C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\models\Columns.java
-C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\Driver.java
-C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\Read\Reader.java
-C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\models\Records.java
+C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\Read\ORMReader.java
+C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\Delete\ORMDeleter.java
+C:\Users\matth\Repositories\myRepo\My Projects\MavenProject1\src\main\java\com\revature\models\Hero.java

@@ -4,10 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * This is the connection factory for the application
- * It establishes the application's connection to the database
- */
 public class ConnectionFactory {
 
 
@@ -19,9 +15,13 @@ public class ConnectionFactory {
     public static Connection getConnection(){
         try {
             Class.forName("org.postgresql.Driver");
+            final String url = "jdbc:postgresql://practicedatabase.cyujpfbj7s2c.us-east-2.rds.amazonaws.com:5432/postgres";
+            final String userName = "postgres";
+            final String password = System.getenv("dbPassword");
+            Connection connection;
+
             connection = DriverManager.getConnection(url, userName, password);
         } catch (SQLException | ClassNotFoundException e) {
-
             e.printStackTrace();
         }
 
