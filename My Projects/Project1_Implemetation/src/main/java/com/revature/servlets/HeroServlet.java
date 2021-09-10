@@ -1,6 +1,7 @@
 package com.revature.servlets;
 
 import com.revature.services.HeroService;
+import org.apache.log4j.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,7 +12,6 @@ import java.io.IOException;
 
 @WebServlet(urlPatterns = "/heroes")
 public class HeroServlet extends HttpServlet {
-
     HeroService service;
     public HeroServlet() {
         this.service = new HeroService();
@@ -19,6 +19,8 @@ public class HeroServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         service.getAllHeroes(req, resp);
+
+
     }
 
     @Override

@@ -1,5 +1,4 @@
 package com.revature.services;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.revature.models.Hero;
@@ -13,8 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
-
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -37,7 +34,7 @@ public class HeroServiceTest {
         outputStreamMock = Mockito.mock(ServletOutputStream.class);
         service = new HeroService();
         heroList = new ArrayList<>();
-        json = "json";
+
     }
 
     @After
@@ -45,41 +42,53 @@ public class HeroServiceTest {
     }
 
     @Test
-    public void getAllHeroes() throws IOException {
+    public void getAllHeroesTest() throws IOException {
         heroList.add(new Hero());
         when(mapperMock.writerWithDefaultPrettyPrinter()).thenReturn(writerMock);
         when(mapperMock.writerWithDefaultPrettyPrinter().writeValueAsString(heroList)).thenReturn(json);
         when(responseMock.getOutputStream()).thenReturn(outputStreamMock);
 
         service.getAllHeroes(requestMock, responseMock);
-
-        // verify acts as an assertion confirming that the response code was added successfully
         verify(responseMock).setStatus(HttpServletResponse.SC_OK);
         verify(outputStreamMock).print(json);
     }
 
     @Test
-    public void updateHero() throws IOException {
+    public void updateHeroTest() throws IOException {
         heroList.add(new Hero());
         when(mapperMock.writerWithDefaultPrettyPrinter()).thenReturn(writerMock);
         when(mapperMock.writerWithDefaultPrettyPrinter().writeValueAsString(heroList)).thenReturn(json);
         when(responseMock.getOutputStream()).thenReturn(outputStreamMock);
 
         service.updateHero(requestMock, responseMock);
-
-        // verify acts as an assertion confirming that the response code was added successfully
         verify(responseMock).setStatus(HttpServletResponse.SC_OK);
         verify(outputStreamMock).print(json);
     }
 
     @Test
-    public void deleteHero() throws IOException {
+    public void deleteHeroTest() throws IOException {
         heroList.add(new Hero());
         when(mapperMock.writerWithDefaultPrettyPrinter()).thenReturn(writerMock);
         when(mapperMock.writerWithDefaultPrettyPrinter().writeValueAsString(heroList)).thenReturn(json);
         when(responseMock.getOutputStream()).thenReturn(outputStreamMock);
+
         service.deleteHero(requestMock, responseMock);
         verify(responseMock).setStatus(HttpServletResponse.SC_OK);
         verify(outputStreamMock).print(json);
     }
+
+    @Test
+    public void insertHeroTest() throws IOException {
+        heroList.add(new Hero());
+        when(mapperMock.writerWithDefaultPrettyPrinter()).thenReturn(writerMock);
+        when(mapperMock.writerWithDefaultPrettyPrinter().writeValueAsString(heroList)).thenReturn(json);
+        when(responseMock.getOutputStream()).thenReturn(outputStreamMock);
+
+        service.insertHero(requestMock, responseMock);
+        verify(responseMock).setStatus(HttpServletResponse.SC_OK);
+        verify(outputStreamMock).print(json);
+    }
+
+    @Test
+    public void getHeroTest(){service.getHeroes();}
 }

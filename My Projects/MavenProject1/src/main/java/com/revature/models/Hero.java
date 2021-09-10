@@ -6,8 +6,7 @@ public class Hero {
     private String last;
     private String alias;
 
-    public Hero() {
-    }
+    public Hero() {}
 
     public Hero(int id, String first, String last, String alias) {
         this.id = id;

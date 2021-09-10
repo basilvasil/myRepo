@@ -1,5 +1,4 @@
 com\revature\Create\ORMCreator.class
-com\revature\util\AppAppenders.class
 com\revature\Delete\ORMDeleter.class
 com\revature\models\Hero.class
 com\revature\Read\ORMReader.class

@@ -1,10 +1,7 @@
 package com.revature.Delete;
 
-import com.revature.util.AppAppenders;
 import com.revature.util.ConnectionFactory;
-import org.apache.log4j.Logger;
 
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
